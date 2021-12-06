@@ -1,12 +1,12 @@
 import React, { useState } from "react";
 
-import Toast from "../toast/Toast";
-import checkIcon from "../../assets/check.svg";
-import errorIcon from "../../assets/error.svg";
-import infoIcon from "../../assets/info.svg";
-import warningIcon from "../../assets/warning.svg";
-import Button from "../button/Button";
-import { buttonData } from "../button/buttonData";
+import Toast from "./components/toast/Toast";
+import checkIcon from "./assets/check.svg";
+import errorIcon from "./assets/error.svg";
+import infoIcon from "./assets/info.svg";
+import warningIcon from "./assets/warning.svg";
+import Button from "./components/button/Button";
+import { buttonData } from "./components/button/buttonData";
 import {
   ToastButtons,
   CheckBox,
