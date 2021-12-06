@@ -32,7 +32,9 @@ const Toast = (props) => {
 
   const deleteToast = (id) => {
     const listItemIndex = list.findIndex((e) => e.id === id);
+    const toastListItem = toastList.findIndex((e) => e.id === id);
     list.splice(listItemIndex, 1);
+    toastList.splice(toastListItem, 1);
     setList([...list]);
   };
 
