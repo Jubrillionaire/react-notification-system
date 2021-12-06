@@ -70,7 +70,7 @@ const Toast = (props) => {
 
 Toast.propTypes = {
   toastList: PropTypes.array.isRequired,
-  position: PropTypes.string,
+  toastPosition: PropTypes.string,
   autoDelete: PropTypes.bool,
   dismissTime: PropTypes.number,
 };

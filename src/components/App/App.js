@@ -21,7 +21,6 @@ import {
 const App = () => {
   const [toastPosition, setToastPosition] = useState("top-right");
   const [checkValue, setCheckValue] = useState(false);
-  const [autoDeleteTime, setAutoDeleteTime] = useState(0);
   let [toastDetails] = useState(null);
   const [toastList, setToastList] = useState([]);
   const [dismissTime, setDismissTime] = useState(0);
@@ -142,7 +141,6 @@ const App = () => {
         toastList={toastList}
         toastPosition={toastPosition}
         autoDelete={checkValue}
-        autoDeleteTime={autoDeleteTime}
         dismissTime={dismissTime}
       />
     </>
