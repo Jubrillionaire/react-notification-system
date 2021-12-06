@@ -90,6 +90,7 @@ const App = () => {
     <>
       <Container>
         <Title>React Notification System</Title>
+
         <ToastButtons>
           {buttonData.map((e) => (
             <Button
@@ -111,6 +112,7 @@ const App = () => {
           />
           <label htmlFor="auto">Auto Dismiss</label>
         </InputContainer>
+        
         <InputContainer>
           <Input
             type="number"
